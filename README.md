@@ -1,5 +1,5 @@
 # Docker container for SMAPP
-[![Docker Image Size]([https://img.shields.io/docker/image-size/ligams/smapp/latest])](https://hub.docker.com/r/ligams/smapp/tags)
+[![Docker Image Size](https://img.shields.io/docker/image-size/ligams/smapp/latest)](https://hub.docker.com/r/ligams/smapp/tags)
 
 This project takes the standalone **Spacemesh + Wallet** application and transforms into portable, web-accessible 
 container using Docker and noVNC.
