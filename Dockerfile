@@ -2,7 +2,7 @@
 FROM debian:bullseye-slim
 
 # SMAPP version
-ARG SMAPP_VERSION=1.0.14
+ARG SMAPP_VERSION=1.0.17
 
 # SMAPP Debian Package
 ARG SMAPP_APP=spacemesh_app_${SMAPP_VERSION}_amd64.deb
