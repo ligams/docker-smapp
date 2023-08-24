@@ -29,7 +29,7 @@ docker run -d \
   -v ${pwd}/config:/root/.config/Spacemesh \
   -v ${pwd}/post:/root/post \
   -p 5800:8080 \
-  furritos/docker-smapp
+  ligams/smapp
 ```
 Finally, take your favorite web browse and open `http://localhost:5800`.
 Please refer to this [Get Started](https://spacemesh.io/start/) page for more information on using **SMAPP**.
