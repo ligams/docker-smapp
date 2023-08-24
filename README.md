@@ -18,7 +18,7 @@ should be adjusted as needed.
 
 First, clone this repository:
 ```
-git clone https://github.com/furritos/docker-smapp.git
+git clone https://github.com/ligams/docker-smapp.git
 cd docker-smapp
 ```
 
@@ -44,7 +44,7 @@ docker run -d \
   -p 5800:8080 \
   -e DISPLAY_WIDTH=1680 \
   -e DISPLAY_HEIGHT=1050 \
-  furritos/docker-smapp
+  ligams/smapp
 ```
 
 ## Docker Basic Usage
@@ -55,7 +55,7 @@ docker run [-d] \
   [-v <HOST_DIR>:<CONTAINER_DIR>[:PERMISSIONS]]... \
   [-p <HOST_PORT>:<CONTAINER_PORT>]... \
   [-e <VARIABLE_NAME>=<VALUE>]... \
-  furritos/docker-smapp
+  ligams/smapp
 ```
 | Parameter | Description                                                                                                                                               |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Finally, the Docker image can be manually updated with these steps:
 
   1. Fetch the latest image:
 ```
-docker pull furritos/docker-smapp
+docker pull ligams/smapp
 ```
   2. Stop the container:
 ```
